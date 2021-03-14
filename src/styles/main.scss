@@ -1,0 +1,71 @@
+@import "_myFont.css";
+body {
+  margin: 0;
+}
+.container {
+  background-color: #ecf2ff;
+  width: 375px;
+  height: 812px;
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 1rem;
+}
+.logo {
+  width: 100%;
+  margin: -0.5rem;
+}
+.welcome {
+  margin-top: 2rem;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.button {
+  background-color: white;
+  width: 335px;
+  border-radius: 20px;
+  height: 48px;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.searchIcon {
+  margin-right: 0.7rem;
+}
+
+.search {
+  &__header {
+    font-size: 18px;
+    margin-top: 2rem;
+  }
+  &__div {
+    display: flex;
+  }
+  &__firstTitle {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  &__secondTitle {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  &__content {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  &__secondimg {
+    margin-left: 1rem;
+  }
+  &__secondContent{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 1rem;
+  }
+  &__secondTitle{
+    margin-left: 1rem;
+  }
+}
+.footer{
+ margin-left: -1rem;
+ margin-bottom: -0.3rem;
+}
